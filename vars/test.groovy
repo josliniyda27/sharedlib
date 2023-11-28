@@ -1,3 +1,3 @@
-def call(name,day){
-  echo "Hi ${name} We will meet on ${day}"
+def call(Map config[:]){
+  echo "Hi ${config.name} We will meet on ${config.day}"
 }
