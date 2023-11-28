@@ -1,3 +1,3 @@
-def display(String name,String day){
-  echo "Hi ${name} We will meet on ${day}"
+def display(Map config = [:]){
+  echo "Hi ${config.name} We will meet on ${config.day}"
 }
